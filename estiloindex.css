@@ -1,0 +1,115 @@
+/* Esto es la hoja de estilos de portfolio */
+
+body{
+    background-color: grey;
+    font-size: calc(0.5em + 2vw);
+    font-family: 'Aldrich', sans-serif;
+
+}
+header img{
+    width: 100%;
+    height: auto;
+}
+#r1{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+#titulo {
+    position: absolute;
+    top: 5vw;
+    left: 6.5vw;
+    border-style: double;
+    border-color: orangered;
+    padding: 2vw;
+    border-radius: 25px;
+}
+#mobile{
+    display: none;
+}
+#pc{
+    display: block;
+}
+
+/* Estilos del main */
+
+div.polaroid {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3%;
+    float: left;
+    padding: 1vw;
+}
+div.container {
+    text-align: center;
+    padding: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+@media only screen and (max-width:500px) {
+    div.polaroid{
+    width:90%;
+    margin:20px;
+    }
+    main h2{
+    font-size: 8vw;
+    }
+    #mobile{
+        display: block;
+    }
+    #pc{
+        display: none;
+    }
+    #titulo {
+        position: absolute;
+        top: 5vw;
+        margin-left: 20%;
+        border-style: double;
+        border-color: orangered;
+        padding: 2vw;
+        border-radius: 25px;
+        color: white;
+        text-align: center;
+    }
+  }
+div.polaroid:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+a{
+text-decoration: none;
+}
+main h2{
+    color: #42443F;
+    margin: 0 auto;
+}
+
+#fin-float{
+    clear: both;
+}
+main{
+    text-align: center;
+}
+
+/* Estilo del footer */
+
+footer{
+    color: white;
+    background-color: silver ;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
+.fa {
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+  }
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
